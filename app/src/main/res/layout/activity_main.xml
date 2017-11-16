@@ -136,6 +136,7 @@
             android:visibility="gone" />
 
         <LinearLayout
+            android:id="@+id/seekBarCaps"
             android:layout_width="301dp"
             android:layout_height="38dp"
             android:orientation="horizontal"
@@ -203,7 +204,7 @@
             android:layout_height="wrap_content"
             android:scaleX="0.75"
             android:scaleY="0.75"
-            android:visibility="gone" />
+            android:visibility="visible" />
 
         <Space
             android:layout_width="match_parent"
